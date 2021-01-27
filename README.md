@@ -1,28 +1,28 @@
-# Exemplo de desenvolvimento utilizando TDD
+# Simple To-Do List using TDD
 
-Desenvolvimento simples de um TodoList utilizando TDD (Test-driven development), aplicando conceitos como Mock, Stub e Injeção de Dependências.
+Developed To-Do list using using TDD (test-driven development) and concepts like Mock, Stub and dependency injection.
 
-# Iniciar testes
+# Run tests
 
-Na raiz execute:
+In root run:
 
 ```console
 foo@bar:~$ npm install
 ```
 
-* Teste geral: 
+* General test: 
 
 ```console
 foo@bar:~$ npm test
 ```
 
-* Teste para desenvolvimento
+* Development testing:
 
 ```console
 foo@bar:~$ npm run test:dev
 ```
 
-* Para verificar cobertura de testes
+* Check test coverage
 
 ```console
 foo@bar:~$ npm run test:cov
